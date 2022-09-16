@@ -20,7 +20,7 @@ function closemenu(){
 function sendEmail(){
     Email.send({
         SecureToken:"5fdfbe6f-1368-4691-9340-13397512734b",
-        To : 'taonuga@gmail.com',
+        To : 'timingotech.gmail.com',
         From : document.getElementById("email").value,
         Subject : "New Contact Form Enquiry",
         Body : "Name:"+document.getElementById("name").value
