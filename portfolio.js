@@ -19,13 +19,13 @@ function closemenu(){
 }
 function sendEmail(){
     Email.send({
-        SecureToken:"5fdfbe6f-1368-4691-9340-13397512734b",
+        SecureToken:"52064b80-222f-4cb1-b34c-fda82daa8a36",
         To : 'timingotech.gmail.com',
         From : document.getElementById("email").value,
         Subject : "New Contact Form Enquiry",
-        Body : "Name:"+document.getElementById("name").value
-               +"<br> Email:" +document.getElementById("email").value
-               +"<br> Message:" +document.getElementById("message").value
+        Body : "Name:"+ document.getElementById("name").value
+               +"<br> Email:" + document.getElementById("email").value
+               +"<br> Message:" + document.getElementById("message").value
     }).then(
       message => alert("Message Sent Successfully")
     );
