@@ -24,8 +24,11 @@ body{
     padding: 10px 10%;
 }
 .logo{
-    width: 140px;
-    height: 50px;
+    width: 300px;
+    height: 150px;
+    justify-content: left;
+    padding-top: 20px;
+    border-radius: 50%;
 }
 nav{
     display: flex;
